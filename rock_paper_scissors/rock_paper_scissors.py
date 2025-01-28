@@ -23,7 +23,7 @@ while True:
     computer_option = options[computer_choice]
     # Associa o número aleatório a uma opção correspondente da lista `options`.
 
-    print("O computador escolheu" + computer_option)
+    print("O computador escolheu:" +  computer_option)
     
     if user_choice == computer_choice:
        print("Empate!")
